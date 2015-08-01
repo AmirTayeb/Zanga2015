@@ -1550,7 +1550,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1915850540}
-  offset: {x: 0, y: 2.20000005, z: -1.71000004}
+  height: 5
+  distance: 5
+  min: 5
+  max: 60
+  rotateSpeed: 1
+  doRotate: 0
+  doZoom: 0
+  zoomStep: 30
+  zoomSpeed: 5
 --- !u!1 &1314628438
 GameObject:
   m_ObjectHideFlags: 0
