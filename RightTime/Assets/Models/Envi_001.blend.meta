@@ -13,6 +13,14 @@ ModelImporter:
     100010: House_001_004
     100012: Door_01
     100014: House_001_005
+    100016: Door_001
+    100018: Door_001_001
+    100020: Door_001_002
+    100022: Door_frame_001
+    100024: Door_Frame_001_001
+    100026: House_001_ground
+    100028: house_001_roof
+    100030: House_001_wall
     400000: //RootNode
     400002: House_001
     400004: House_001_001
@@ -21,6 +29,14 @@ ModelImporter:
     400010: House_001_004
     400012: Door_01
     400014: House_001_005
+    400016: Door_001
+    400018: Door_001_001
+    400020: Door_001_002
+    400022: Door_frame_001
+    400024: Door_Frame_001_001
+    400026: House_001_ground
+    400028: house_001_roof
+    400030: House_001_wall
     2300000: House_001
     2300002: House_001_001
     2300004: House_001_002
@@ -28,6 +44,14 @@ ModelImporter:
     2300008: House_001_004
     2300010: Door_01
     2300012: House_001_005
+    2300014: Door_001
+    2300016: Door_001_001
+    2300018: Door_001_002
+    2300020: Door_frame_001
+    2300022: Door_Frame_001_001
+    2300024: House_001_ground
+    2300026: house_001_roof
+    2300028: House_001_wall
     3300000: House_001
     3300002: House_001_001
     3300004: House_001_002
@@ -35,6 +59,14 @@ ModelImporter:
     3300008: House_001_004
     3300010: Door_01
     3300012: House_001_005
+    3300014: Door_001
+    3300016: Door_001_001
+    3300018: Door_001_002
+    3300020: Door_frame_001
+    3300022: Door_Frame_001_001
+    3300024: House_001_ground
+    3300026: house_001_roof
+    3300028: House_001_wall
     4300000: House_001_004
     4300002: House_001_003
     4300004: House_001_001
@@ -42,6 +74,14 @@ ModelImporter:
     4300008: House_001
     4300010: House_001_005
     4300012: Door_01
+    4300014: House_001_ground
+    4300016: house_001_roof
+    4300018: Door_001_002
+    4300020: Door_001
+    4300022: Door_frame_001
+    4300024: Door_Frame_001_001
+    4300026: Door_001_001
+    4300028: House_001_wall
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -53,6 +93,10 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
