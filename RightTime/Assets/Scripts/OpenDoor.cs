@@ -32,7 +32,6 @@ public class OpenDoor : MonoBehaviour
         }
         if (doorBroken)
         {
-            //door.GetComponent<Renderer>().enabled = false;
             GameObject.Destroy(door, 1.5f);
         }
 	}
