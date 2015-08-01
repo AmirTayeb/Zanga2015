@@ -1336,9 +1336,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b982d65b53a72b845b8f75044ac66527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 1993730217}
-  forceMag: 500
-  hasFireExtinguisher: 1
+  door: {fileID: 0}
+  forceMag: 10
+  hasFireExtinguisher: 0
 --- !u!1 &1032897323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,7 +1511,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .796716213, y: .500000238, z: 2.57305813}
+  m_Size: {x: 2.3599999, y: 2.01999998, z: 2.57305813}
   m_Center: {x: -.0143940002, y: -5.90578324e-08, z: .00521999691}
 --- !u!1001 &1160028943
 Prefab:
@@ -2366,6 +2366,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1487831526}
   m_RootOrder: 0
+--- !u!1 &1959553820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 1f408f5fe8c55e84ea9a97380a562654, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1959553823}
+  - 132: {fileID: 1959553822}
+  - 114: {fileID: 1959553821}
+  m_Layer: 0
+  m_Name: ArabicTextSample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1959553821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 1f408f5fe8c55e84ea9a97380a562654,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959553820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2366643190704d439e8d753f836f45e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "\u0623\u0636\u063A\u0637 \u0639\u0644\u0649 \"\u062D/P\" \u0644\u062D\u0645\u0644
+    \u0637\u0641\u0627\u064A\u0629 \u0627\u0644\u062D\u0631\u064A\u0642"
+--- !u!132 &1959553822
+GUIText:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13200000, guid: 1f408f5fe8c55e84ea9a97380a562654,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959553820}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: 
+  m_Anchor: 1
+  m_Alignment: 1
+  m_PixelOffset: {x: 0, y: 0}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: b3705e98bb14f574bb71ae5b9d13fb82, type: 3}
+  m_Material: {fileID: 0}
+  m_FontSize: 30
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4280493018
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!4 &1959553823
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 1f408f5fe8c55e84ea9a97380a562654, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959553820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .662426412, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
 --- !u!1 &1993730217 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100018, guid: f30e5d38f7964794a9e3015c32f14152, type: 3}
