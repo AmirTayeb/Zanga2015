@@ -33,6 +33,7 @@ public class OpenDoor : MonoBehaviour
         if (doorBroken)
         {
             GameObject.Destroy(door, 1.5f);
+            StartCoroutine(LoadLevelDelayed());
         }
 	}
 
@@ -49,5 +50,11 @@ public class OpenDoor : MonoBehaviour
         {
             nearDoor = false;
         }
+    }
+
+    IEnumerator LoadLevelDelayed()
+    {
+        yield return new WaitForSeconds(1.5f);
+        Application.LoadLevel(1);
     }
 }

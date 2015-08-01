@@ -6,33 +6,42 @@ public class GameManager : MonoBehaviour
 {
     public Text countDownTime;
 
-    public float gameTime = 10;
+    public float gameTimeInMintues = 10;
 
     private float timeInMinutes;
-    private float startTime;
-    private float endTime;
-    private float second = 1000000000;
-	// Use this for initialization
-	void Start () 
+    private string timeToDisplay;
+
+    private int seconds;
+    private int minutes;
+
+
+    void Start () 
     {
-        timeInMinutes = gameTime * 60;
-        startTime = Time.time + timeInMinutes;
-        countDownTime.text = "Time: " + startTime.ToString();
-        endTime = Time.time;
+        timeInMinutes = gameTimeInMintues * 60;
+        seconds = (int)(timeInMinutes % 60);
+        minutes = (int)(timeInMinutes / 60);
+
+        timeToDisplay = string.Format("{0:00}:{1:00}", minutes, seconds); 
+        countDownTime.text = "Time: " + timeToDisplay;
 	}
 	
-	// Update is called once per frame
 	void Update () 
     {
-        if (startTime > endTime)
-        {
-            second -= Time.deltaTime;
-            if (second == 0)
-            {
-                startTime--;
-                countDownTime.text = "Time: " + startTime.ToString();
-                second = 1000000000;
-            }
-        }
+        StartCoroutine(CountDown());
 	}
+
+    IEnumerator CountDown()
+    {
+        yield return new WaitForSeconds(1f);
+        timeInMinutes -= Time.deltaTime;
+        if (timeInMinutes <= 0)
+            timeInMinutes = 0;
+
+        seconds = (int)(timeInMinutes % 60);
+        minutes = (int)(timeInMinutes / 60);
+
+        timeToDisplay = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+        countDownTime.text = "Time: " + timeToDisplay;
+    }
 }
