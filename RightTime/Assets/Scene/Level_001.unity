@@ -1336,8 +1336,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b982d65b53a72b845b8f75044ac66527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
-  forceMag: 10
+  door: {fileID: 1993730217}
+  forceMag: 500
   hasFireExtinguisher: 0
 --- !u!1 &1032897323
 GameObject:
