@@ -270,6 +270,9 @@ ModelImporter:
     400260: WEAPON_R
     400262: WEAPON_R_end
     4300000: character_001
+    7400000: Pick
+    7400002: hold_idle
+    7400004: attack
     9500000: //RootNode
     13700000: character_001
   materials:
@@ -291,7 +294,877 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Pick
+      takeName: sama_rig|Pick
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character_001
+        weight: 0
+      - path: sama_rig
+        weight: 1
+      - path: sama_rig/root
+        weight: 1
+      - path: sama_rig/root/CTR_LagePT_L
+        weight: 0
+      - path: sama_rig/root/CTR_LagePT_L/CTR_LagePT_L_end
+        weight: 0
+      - path: sama_rig/root/CTR_LagePT_R
+        weight: 0
+      - path: sama_rig/root/CTR_LagePT_R/CTR_LagePT_R_end
+        weight: 0
+      - path: sama_rig/root/CTR_leg_L
+        weight: 0
+      - path: sama_rig/root/CTR_leg_L/CTR_FootIK_L
+        weight: 0
+      - path: sama_rig/root/CTR_leg_L/CTR_FootIK_L/CTR_FootIK_L_end
+        weight: 0
+      - path: sama_rig/root/CTR_leg_R
+        weight: 0
+      - path: sama_rig/root/CTR_leg_R/CTR_FootIK_R
+        weight: 0
+      - path: sama_rig/root/CTR_leg_R/CTR_FootIK_R/CTR_FootIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Neck
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Neck/DEF_Head
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Neck/DEF_Head/DEF_Head_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L/DEF_Index_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L/DEF_Index_02_L/DEF_Index_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L/DEF_Index_02_L/DEF_Index_03_L/DEF_Index_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/CTR_indexIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/CTR_indexIK_L/CTR_indexIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/DEF_Index_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/DEF_Index_01_L.002/DEF_Index_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L/DEF_Mid_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L/DEF_Mid_02_L/DEF_Mid_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L/DEF_Mid_02_L/DEF_Mid_03_L/DEF_Mid_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/CTR_MidIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/CTR_MidIK_L/CTR_MidIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/DEF_Mid_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/DEF_Mid_01_L.002/DEF_Mid_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L/DEF_Pinky_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L/DEF_Pinky_02_L/DEF_Pinky_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L/DEF_Pinky_02_L/DEF_Pinky_03_L/DEF_Pinky_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/CTR_pinkyIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/CTR_pinkyIK_L/CTR_pinkyIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/DEF_Pinky_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/DEF_Pinky_01_L.002/DEF_Pinky_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L/DEF_Ring_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L/DEF_Ring_02_L/DEF_Ring_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L/DEF_Ring_02_L/DEF_Ring_03_L/DEF_Ring_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/CTR_RingIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/CTR_RingIK_L/CTR_RingIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/DEF_Ring_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/DEF_Ring_01_L.002/DEF_Ring_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L/DEF_thumb_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L/DEF_thumb_02_L/DEF_thumb_01_L.001
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L/DEF_thumb_02_L/DEF_thumb_01_L.001/DEF_thumb_01_L.001_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/CTR_thumbIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/CTR_thumbIK_L/CTR_thumbIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/DEF_thumb_01_L.003
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/DEF_thumb_01_L.003/DEF_thumb_01_L.003_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/WEAPON_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/WEAPON_L/WEAPON_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R/DEF_Index_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R/DEF_Index_02_R/DEF_Index_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R/DEF_Index_02_R/DEF_Index_03_R/DEF_Index_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/CTR_indexIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/CTR_indexIK_R/CTR_indexIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/DEF_Index_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/DEF_Index_01_R.002/DEF_Index_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R/DEF_Mid_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R/DEF_Mid_02_R/DEF_Mid_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R/DEF_Mid_02_R/DEF_Mid_03_R/DEF_Mid_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/CTR_MidIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/CTR_MidIK_R/CTR_MidIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/DEF_Mid_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/DEF_Mid_01_R.002/DEF_Mid_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R/DEF_Pinky_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R/DEF_Pinky_02_R/DEF_Pinky_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R/DEF_Pinky_02_R/DEF_Pinky_03_R/DEF_Pinky_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/CTR_pinkyIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/CTR_pinkyIK_R/CTR_pinkyIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/DEF_Pinky_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/DEF_Pinky_01_R.002/DEF_Pinky_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R/DEF_Ring_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R/DEF_Ring_02_R/DEF_Ring_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R/DEF_Ring_02_R/DEF_Ring_03_R/DEF_Ring_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/CTR_RingIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/CTR_RingIK_R/CTR_RingIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/DEF_Ring_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/DEF_Ring_01_R.002/DEF_Ring_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R/DEF_thumb_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R/DEF_thumb_02_R/DEF_thumb_01_R.001
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R/DEF_thumb_02_R/DEF_thumb_01_R.001/DEF_thumb_01_R.001_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/CTR_thumbIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/CTR_thumbIK_R/CTR_thumbIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/DEF_thumb_01_R.003
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/DEF_thumb_01_R.003/DEF_thumb_01_R.003_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/WEAPON_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/WEAPON_R/WEAPON_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L/DEF_Foot_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L/DEF_Foot_L/DEF_toe_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L/DEF_Foot_L/DEF_toe_L/DEF_toe_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R/DEF_Foot_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R/DEF_Foot_R/DEF_toe_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R/DEF_Foot_R/DEF_toe_R/DEF_toe_R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hold_idle
+      takeName: sama_rig|Pick
+      firstFrame: 35
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character_001
+        weight: 0
+      - path: sama_rig
+        weight: 1
+      - path: sama_rig/root
+        weight: 1
+      - path: sama_rig/root/CTR_LagePT_L
+        weight: 0
+      - path: sama_rig/root/CTR_LagePT_L/CTR_LagePT_L_end
+        weight: 0
+      - path: sama_rig/root/CTR_LagePT_R
+        weight: 0
+      - path: sama_rig/root/CTR_LagePT_R/CTR_LagePT_R_end
+        weight: 0
+      - path: sama_rig/root/CTR_leg_L
+        weight: 0
+      - path: sama_rig/root/CTR_leg_L/CTR_FootIK_L
+        weight: 0
+      - path: sama_rig/root/CTR_leg_L/CTR_FootIK_L/CTR_FootIK_L_end
+        weight: 0
+      - path: sama_rig/root/CTR_leg_R
+        weight: 0
+      - path: sama_rig/root/CTR_leg_R/CTR_FootIK_R
+        weight: 0
+      - path: sama_rig/root/CTR_leg_R/CTR_FootIK_R/CTR_FootIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Neck
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Neck/DEF_Head
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Neck/DEF_Head/DEF_Head_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L/DEF_Index_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L/DEF_Index_02_L/DEF_Index_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L/DEF_Index_02_L/DEF_Index_03_L/DEF_Index_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/CTR_indexIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/CTR_indexIK_L/CTR_indexIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/DEF_Index_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/DEF_Index_01_L.002/DEF_Index_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L/DEF_Mid_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L/DEF_Mid_02_L/DEF_Mid_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L/DEF_Mid_02_L/DEF_Mid_03_L/DEF_Mid_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/CTR_MidIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/CTR_MidIK_L/CTR_MidIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/DEF_Mid_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/DEF_Mid_01_L.002/DEF_Mid_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L/DEF_Pinky_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L/DEF_Pinky_02_L/DEF_Pinky_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L/DEF_Pinky_02_L/DEF_Pinky_03_L/DEF_Pinky_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/CTR_pinkyIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/CTR_pinkyIK_L/CTR_pinkyIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/DEF_Pinky_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/DEF_Pinky_01_L.002/DEF_Pinky_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L/DEF_Ring_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L/DEF_Ring_02_L/DEF_Ring_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L/DEF_Ring_02_L/DEF_Ring_03_L/DEF_Ring_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/CTR_RingIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/CTR_RingIK_L/CTR_RingIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/DEF_Ring_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/DEF_Ring_01_L.002/DEF_Ring_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L/DEF_thumb_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L/DEF_thumb_02_L/DEF_thumb_01_L.001
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L/DEF_thumb_02_L/DEF_thumb_01_L.001/DEF_thumb_01_L.001_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/CTR_thumbIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/CTR_thumbIK_L/CTR_thumbIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/DEF_thumb_01_L.003
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/DEF_thumb_01_L.003/DEF_thumb_01_L.003_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/WEAPON_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/WEAPON_L/WEAPON_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R/DEF_Index_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R/DEF_Index_02_R/DEF_Index_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R/DEF_Index_02_R/DEF_Index_03_R/DEF_Index_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/CTR_indexIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/CTR_indexIK_R/CTR_indexIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/DEF_Index_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/DEF_Index_01_R.002/DEF_Index_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R/DEF_Mid_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R/DEF_Mid_02_R/DEF_Mid_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R/DEF_Mid_02_R/DEF_Mid_03_R/DEF_Mid_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/CTR_MidIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/CTR_MidIK_R/CTR_MidIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/DEF_Mid_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/DEF_Mid_01_R.002/DEF_Mid_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R/DEF_Pinky_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R/DEF_Pinky_02_R/DEF_Pinky_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R/DEF_Pinky_02_R/DEF_Pinky_03_R/DEF_Pinky_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/CTR_pinkyIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/CTR_pinkyIK_R/CTR_pinkyIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/DEF_Pinky_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/DEF_Pinky_01_R.002/DEF_Pinky_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R/DEF_Ring_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R/DEF_Ring_02_R/DEF_Ring_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R/DEF_Ring_02_R/DEF_Ring_03_R/DEF_Ring_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/CTR_RingIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/CTR_RingIK_R/CTR_RingIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/DEF_Ring_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/DEF_Ring_01_R.002/DEF_Ring_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R/DEF_thumb_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R/DEF_thumb_02_R/DEF_thumb_01_R.001
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R/DEF_thumb_02_R/DEF_thumb_01_R.001/DEF_thumb_01_R.001_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/CTR_thumbIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/CTR_thumbIK_R/CTR_thumbIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/DEF_thumb_01_R.003
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/DEF_thumb_01_R.003/DEF_thumb_01_R.003_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/WEAPON_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/WEAPON_R/WEAPON_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L/DEF_Foot_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L/DEF_Foot_L/DEF_toe_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L/DEF_Foot_L/DEF_toe_L/DEF_toe_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R/DEF_Foot_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R/DEF_Foot_R/DEF_toe_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R/DEF_Foot_R/DEF_toe_R/DEF_toe_R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: sama_rig|Pick
+      firstFrame: 50
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character_001
+        weight: 0
+      - path: sama_rig
+        weight: 1
+      - path: sama_rig/root
+        weight: 1
+      - path: sama_rig/root/CTR_LagePT_L
+        weight: 0
+      - path: sama_rig/root/CTR_LagePT_L/CTR_LagePT_L_end
+        weight: 0
+      - path: sama_rig/root/CTR_LagePT_R
+        weight: 0
+      - path: sama_rig/root/CTR_LagePT_R/CTR_LagePT_R_end
+        weight: 0
+      - path: sama_rig/root/CTR_leg_L
+        weight: 0
+      - path: sama_rig/root/CTR_leg_L/CTR_FootIK_L
+        weight: 0
+      - path: sama_rig/root/CTR_leg_L/CTR_FootIK_L/CTR_FootIK_L_end
+        weight: 0
+      - path: sama_rig/root/CTR_leg_R
+        weight: 0
+      - path: sama_rig/root/CTR_leg_R/CTR_FootIK_R
+        weight: 0
+      - path: sama_rig/root/CTR_leg_R/CTR_FootIK_R/CTR_FootIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Neck
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Neck/DEF_Head
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Neck/DEF_Head/DEF_Head_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L/DEF_Index_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L/DEF_Index_02_L/DEF_Index_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L/DEF_Index_02_L/DEF_Index_03_L/DEF_Index_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/CTR_indexIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/CTR_indexIK_L/CTR_indexIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/DEF_Index_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Index_01_L.001/DEF_Index_01_L.002/DEF_Index_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L/DEF_Mid_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L/DEF_Mid_02_L/DEF_Mid_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L/DEF_Mid_02_L/DEF_Mid_03_L/DEF_Mid_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/CTR_MidIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/CTR_MidIK_L/CTR_MidIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/DEF_Mid_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Mid_01_L.001/DEF_Mid_01_L.002/DEF_Mid_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L/DEF_Pinky_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L/DEF_Pinky_02_L/DEF_Pinky_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L/DEF_Pinky_02_L/DEF_Pinky_03_L/DEF_Pinky_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/CTR_pinkyIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/CTR_pinkyIK_L/CTR_pinkyIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/DEF_Pinky_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Pinky_01_L.001/DEF_Pinky_01_L.002/DEF_Pinky_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L/DEF_Ring_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L/DEF_Ring_02_L/DEF_Ring_03_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L/DEF_Ring_02_L/DEF_Ring_03_L/DEF_Ring_03_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/CTR_RingIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/CTR_RingIK_L/CTR_RingIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/DEF_Ring_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_Ring_01_L.001/DEF_Ring_01_L.002/DEF_Ring_01_L.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L/DEF_thumb_02_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L/DEF_thumb_02_L/DEF_thumb_01_L.001
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L/DEF_thumb_02_L/DEF_thumb_01_L.001/DEF_thumb_01_L.001_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/CTR_thumbIK_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/CTR_thumbIK_L/CTR_thumbIK_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/DEF_thumb_01_L.003
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/DEF_thumb_01_L.002/DEF_thumb_01_L.003/DEF_thumb_01_L.003_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/WEAPON_L
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_L/DEF_UpArm_L/DEF_ForArm_L/DEF_Hand_L/WEAPON_L/WEAPON_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R/DEF_Index_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R/DEF_Index_02_R/DEF_Index_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R/DEF_Index_02_R/DEF_Index_03_R/DEF_Index_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/CTR_indexIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/CTR_indexIK_R/CTR_indexIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/DEF_Index_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Index_01_R.001/DEF_Index_01_R.002/DEF_Index_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R/DEF_Mid_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R/DEF_Mid_02_R/DEF_Mid_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R/DEF_Mid_02_R/DEF_Mid_03_R/DEF_Mid_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/CTR_MidIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/CTR_MidIK_R/CTR_MidIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/DEF_Mid_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Mid_01_R.001/DEF_Mid_01_R.002/DEF_Mid_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R/DEF_Pinky_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R/DEF_Pinky_02_R/DEF_Pinky_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R/DEF_Pinky_02_R/DEF_Pinky_03_R/DEF_Pinky_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/CTR_pinkyIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/CTR_pinkyIK_R/CTR_pinkyIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/DEF_Pinky_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Pinky_01_R.001/DEF_Pinky_01_R.002/DEF_Pinky_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R/DEF_Ring_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R/DEF_Ring_02_R/DEF_Ring_03_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R/DEF_Ring_02_R/DEF_Ring_03_R/DEF_Ring_03_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/CTR_RingIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/CTR_RingIK_R/CTR_RingIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/DEF_Ring_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_Ring_01_R.001/DEF_Ring_01_R.002/DEF_Ring_01_R.002_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R/DEF_thumb_02_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R/DEF_thumb_02_R/DEF_thumb_01_R.001
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R/DEF_thumb_02_R/DEF_thumb_01_R.001/DEF_thumb_01_R.001_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/CTR_thumbIK_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/CTR_thumbIK_R/CTR_thumbIK_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/DEF_thumb_01_R.003
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/DEF_thumb_01_R.002/DEF_thumb_01_R.003/DEF_thumb_01_R.003_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/WEAPON_R
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Spine/DEF_Chest/DEF_Shoulder_R/DEF_UpArm_R/DEF_ForArm_R/DEF_Hand_R/WEAPON_R/WEAPON_R_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L/DEF_Foot_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L/DEF_Foot_L/DEF_toe_L
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_L/DEF_Shin_L/DEF_Foot_L/DEF_toe_L/DEF_toe_L_end
+        weight: 0
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R/DEF_Foot_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R/DEF_Foot_R/DEF_toe_R
+        weight: 1
+      - path: sama_rig/root/DEF_Hips/DEF_Thigh_R/DEF_Shin_R/DEF_Foot_R/DEF_toe_R/DEF_toe_R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
