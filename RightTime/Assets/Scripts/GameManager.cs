@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour 
 {
     public Text countDownTime;
-
     public float gameTimeInMintues = 10;
 
     private float timeInMinutes;
@@ -43,5 +42,7 @@ public class GameManager : MonoBehaviour
         timeToDisplay = string.Format("{0:00}:{1:00}", minutes, seconds);
 
         countDownTime.text = "Time: " + timeToDisplay;
+
     }
+
 }
