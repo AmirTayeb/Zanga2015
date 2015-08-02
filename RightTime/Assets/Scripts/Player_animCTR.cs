@@ -13,6 +13,8 @@ public class Player_animCTR : MonoBehaviour {
 	public Transform hand ; 
 	public bool able_attack = false ;
 	public Transform player ;
+	public GameObject pick_talk ;
+
 	void Start ()
 	{
 		anim = GetComponent<Animator>();
@@ -35,6 +37,7 @@ public class Player_animCTR : MonoBehaviour {
 			fire.transform.localRotation = new Quaternion(-0.95f,0,0,1);
 			picked = false ;
 			able_attack = true;
+			pick_talk.SetActive(false) ;
 			player.gameObject.GetComponent<OpenDoor>().hasFireExtinguisher = true ;
 
 		}

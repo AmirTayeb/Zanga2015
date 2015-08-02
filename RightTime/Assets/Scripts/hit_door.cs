@@ -3,13 +3,13 @@ using System.Collections;
 
 public class hit_door : MonoBehaviour {
 
-	public Transform close_door ;
+	public Transform hit2_door ;
 	
 	void OnTriggerEnter(Collider col)
 	{
-		if (col.gameObject.tag == "Player" && col.gameObject.GetComponent<OpenDoor>().hasFireExtinguisher == false)
+		if (col.gameObject.tag == "Player" && col.gameObject.GetComponent<OpenDoor>().hasFireExtinguisher == true)
 		{
-			close_door.gameObject.SetActive(true);
+			hit2_door.gameObject.SetActive(true);
 		}
 	}
 	
@@ -17,7 +17,7 @@ public class hit_door : MonoBehaviour {
 	{
 		if (col.gameObject.tag == "Player")
 		{
-			close_door.gameObject.SetActive(false);
+			hit2_door.gameObject.SetActive(false);
 		}
 	}
 }
