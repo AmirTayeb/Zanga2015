@@ -2450,7 +2450,7 @@ GameObject:
   - 222: {fileID: 2006310257}
   - 114: {fileID: 2006310256}
   m_Layer: 5
-  m_Name: Player_level0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
