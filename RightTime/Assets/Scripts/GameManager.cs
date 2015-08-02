@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
         minutes = (int)(timeInMinutes / 60);
 
         timeToDisplay = string.Format("{0:00}:{1:00}", minutes, seconds); 
-        countDownTime.text = "Time: " + timeToDisplay;
+        countDownTime.text = timeToDisplay;
 	}
 	
 	void Update () 
@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
 
         timeToDisplay = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-        countDownTime.text = "Time: " + timeToDisplay;
+        countDownTime.text = timeToDisplay;
 
     }
 
