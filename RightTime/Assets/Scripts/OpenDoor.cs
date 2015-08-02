@@ -32,7 +32,8 @@ public class OpenDoor : MonoBehaviour
         }
         if (doorBroken)
         {
-            GameObject.Destroy(door, 1.5f);
+            //GameObject.Destroy(door, 1.5f);
+			//can u make it so that change the door ridigtbody to not kinmatic 
             StartCoroutine(LoadLevelDelayed());
         }
 	}
