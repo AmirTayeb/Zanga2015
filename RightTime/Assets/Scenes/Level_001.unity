@@ -1613,18 +1613,6 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 117132, guid: 20bdedc43e82f4a4d937444051167ede, type: 2}
   m_PrefabInternal: {fileID: 1139834824}
---- !u!114 &981052827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 981052826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0265bbbfc36818445aa31dc01363f7a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pick_talk: {fileID: 0}
 --- !u!114 &981052832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,6 +1644,7 @@ MonoBehaviour:
   hand: {fileID: 1018354050}
   able_attack: 0
   player: {fileID: 1915850540}
+  pick_talk: {fileID: 783137531}
 --- !u!4 &1018354050 stripped
 Transform:
   m_PrefabParentObject: {fileID: 489058, guid: 20bdedc43e82f4a4d937444051167ede, type: 2}

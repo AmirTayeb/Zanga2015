@@ -9,9 +9,11 @@ public class Pick_Fire : MonoBehaviour {
 	{
 		if (col.gameObject.tag == "Player") 
 		{
-			pick_talk.SetActive(true) ;
+			pick_talk.SetActive(true)  ;
+
 			col.gameObject.GetComponent<Player_animCTR>().close_to_fire = true ;
 		}
+
 
 	}
 
@@ -20,7 +22,11 @@ public class Pick_Fire : MonoBehaviour {
 		if (col.gameObject.tag == "Player") 
 		{
 			pick_talk.SetActive(false)  ;
+			
 		}
 		
+		
 	}
+
+
 }
