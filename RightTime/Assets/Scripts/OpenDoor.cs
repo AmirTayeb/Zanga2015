@@ -23,6 +23,7 @@ public class OpenDoor : MonoBehaviour
         {
             if (hasFireExtinguisher && Input.GetKeyDown(KeyCode.Q))
             {
+                door.GetComponent<HingeJoint>().breakForce = 100;
                 door.GetComponent<Rigidbody>().isKinematic = false;
                 door.GetComponent<Rigidbody>().AddForce(Vector3.right * forceMag);
                 GameObject.Destroy(door.GetComponent<HingeJoint>(), 1.5f);
