@@ -56,6 +56,6 @@ public class OpenDoor : MonoBehaviour
     IEnumerator LoadLevelDelayed()
     {
         yield return new WaitForSeconds(1.5f);
-        Application.LoadLevel(1);
+        Application.LoadLevel(2);
     }
 }
