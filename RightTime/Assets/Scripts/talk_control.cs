@@ -3,17 +3,33 @@ using System.Collections;
 
 public class talk_control : MonoBehaviour {
 
-	public Transform talk1;
-	public Transform talk2;
-	public Transform talk3;
-	public Transform talk4;
-	public Transform talk5;
-	
-	public Transform info1;
-	public Transform info2;
-	public Transform info3;
-	
-	public Transform enemey;
+	public Transform P_empty;
+	public Transform P_carefull;
+	public Transform P_start;
+	public Transform P_2_1;
+	public Transform P_2_2;
+	public Transform P_2_3;
+	public Transform P_2_4;
+	public Transform P_3;
+	public Transform P_4_1;
+	public Transform P_4_2;
+	public Transform P_5;
+
+	public Transform F_start;
+	public Transform F_2_1;
+	public Transform F_2_2;
+	public Transform F_2_3;
+	public Transform F_2_4;
+	public Transform F_3;
+	public Transform F_4_1;
+	public Transform F_4_2;
+
+	public Transform End_1;
+	public Transform End_2;
+	public Transform End_3;
+	public Transform End_4;
+	public Transform End_5;
+	public Transform info;
 	
 	public bool add_count; 
 	public int count =0 ;
@@ -29,14 +45,14 @@ public class talk_control : MonoBehaviour {
 	{
 		if (count == 0) 
 		{
-			talk1.gameObject.SetActive (true);
+			P_start.gameObject.SetActive(true);
+			F_start.gameObject.SetActive(true);
 			add_count = true;	
 		}
 		
 		if (Input.GetKeyUp (KeyCode.Space) && count == 1) 
 		{
-			talk1.gameObject.SetActive(false);	
-			talk2.gameObject.SetActive(true);
+
 			
 			add_count = true;
 		}
@@ -44,31 +60,16 @@ public class talk_control : MonoBehaviour {
 		if (Input.GetKeyUp (KeyCode.Space) && count == 2) 
 		{
 			
-			talk2.gameObject.SetActive(false);	
-			Movement.player_control = true;
-			info1.gameObject.SetActive(false);
-			info2.gameObject.SetActive(true);
+
 			add_count = true;
 			
 			
 		}
 		
 		
-		if (!enemey.gameObject.activeInHierarchy) 
-		{
-			info2.gameObject.SetActive(false);
-			info1.gameObject.SetActive(true);
-			talk5.gameObject.SetActive(true);	
-			Movement.player_control = false;
-			
-			
-		}
+	
 		
-		if (Input.GetKeyUp (KeyCode.Space) && count == 3 && !enemey.gameObject.activeInHierarchy) 
-		{
-			Application.LoadLevel(3);
-			
-		}
+
 		
 		if (add_count) 
 		{
